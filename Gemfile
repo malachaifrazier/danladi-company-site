@@ -12,10 +12,10 @@ gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
 gem 'jbuilder', '~> 2.5'
-gem 'jquery-rails'
+# gem 'jquery-rails'
 gem 'figaro'
 gem 'simple_form'
-gem 'bootstrap-sass'
+# gem 'bootstrap-sass'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
