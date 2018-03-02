@@ -1,0 +1,20 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  # For details on connection pooling, see Rails configuration guide
+  # http://guides.rubyonrails.org/configuring.html#database-pooling
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
+  database: danladi_company_site_development
+
+test:
+  <<: *default
+  database: danladi_company_site_test
+
+production:
+  <<: *default
+  database: danladi_company_site_production
+  username: danladi_company_site
+  password: <%= ENV['DANLADI-COMPANY-SITE_DATABASE_PASSWORD'] %>
