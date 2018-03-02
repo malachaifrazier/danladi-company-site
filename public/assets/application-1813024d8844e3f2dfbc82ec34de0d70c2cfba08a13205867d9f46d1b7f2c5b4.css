@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css?family=Archivo+Black|Shrikhand");
+/* line 34, /Users/malachai/Desktop/Projects/danladi-company-site/app/assets/stylesheets/global.scss */
+.page-header {
+  margin-top: 0px !important;
+}
+/* line 36, /Users/malachai/Desktop/Projects/danladi-company-site/app/assets/stylesheets/global.scss */
+.page-header a.btn {
+  float: right;
+}
+/* line 40, /Users/malachai/Desktop/Projects/danladi-company-site/app/assets/stylesheets/global.scss */
+.page-header a.btn + a.btn {
+  margin-right: 8px;
+}
+
+/* line 48, /Users/malachai/Desktop/Projects/danladi-company-site/app/assets/stylesheets/global.scss */
+body {
+  padding-right: 30px;
+  padding-left: 30px;
+  background-color: #cf4747;
+}
+
+/* line 92, /Users/malachai/Desktop/Projects/danladi-company-site/app/assets/stylesheets/global.scss */
+h1, .h1 {
+  margin-top: 0 !important;
+}
+
+/* line 103, /Users/malachai/Desktop/Projects/danladi-company-site/app/assets/stylesheets/global.scss */
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary:active:hover, .btn-primary:active:focus {
+  background: #115599 !important;
+  border-colorbackground: #115599 !important;
+}
+
+/* line 123, /Users/malachai/Desktop/Projects/danladi-company-site/app/assets/stylesheets/global.scss */
+.field_with_errors input, .field_with_errors select {
+  border: 1px solid #A94442;
+}
+
+/* line 129, /Users/malachai/Desktop/Projects/danladi-company-site/app/assets/stylesheets/global.scss */
+label, dt {
+  font-weight: 600 !important;
+}
+
+/* line 134, /Users/malachai/Desktop/Projects/danladi-company-site/app/assets/stylesheets/global.scss */
+.required label {
+  font-weight: bold;
+}
+
+/* line 138, /Users/malachai/Desktop/Projects/danladi-company-site/app/assets/stylesheets/global.scss */
+.required label:after {
+  color: #e32;
+  content: ' *';
+  display: inline;
+}
+
+/* line 146, /Users/malachai/Desktop/Projects/danladi-company-site/app/assets/stylesheets/global.scss */
+.filter > .panel-heading, panel > .panel-heading {
+  background-color: #eeeeee !important;
+  font-weight: 500;
+}
+/* line 150, /Users/malachai/Desktop/Projects/danladi-company-site/app/assets/stylesheets/global.scss */
+.filter > .panel-body, panel > .panel-body {
+  background-color: #fafafa !important;
+  font-size: 13px !important;
+  font-weight: normal !important;
+}
+
+/* line 170, /Users/malachai/Desktop/Projects/danladi-company-site/app/assets/stylesheets/global.scss */
+.nav > li > a {
+  font-weight: 500;
+}
+
+/* line 175, /Users/malachai/Desktop/Projects/danladi-company-site/app/assets/stylesheets/global.scss */
+body {
+  padding-top: 70px;
+}
+
+/* line 180, /Users/malachai/Desktop/Projects/danladi-company-site/app/assets/stylesheets/global.scss */
+.navbar-brand {
+  padding-top: 10px !important;
+}
+
+/* line 209, /Users/malachai/Desktop/Projects/danladi-company-site/app/assets/stylesheets/global.scss */
+dt, dd {
+  padding: 5px 0 5px 0;
+}
+
+/* line 215, /Users/malachai/Desktop/Projects/danladi-company-site/app/assets/stylesheets/global.scss */
+.center-block {
+  float: none !important;
+}
+
+/* line 218, /Users/malachai/Desktop/Projects/danladi-company-site/app/assets/stylesheets/global.scss */
+.footer {
+  margin-top: 10px;
+}
+
+/* line 225, /Users/malachai/Desktop/Projects/danladi-company-site/app/assets/stylesheets/global.scss */
+.custom-index-table th:last-of-type {
+  width: 120px;
+}
+/* line 228, /Users/malachai/Desktop/Projects/danladi-company-site/app/assets/stylesheets/global.scss */
+.custom-index-table td:last-of-type {
+  text-align: center;
+}
+/* line 230, /Users/malachai/Desktop/Projects/danladi-company-site/app/assets/stylesheets/global.scss */
+.custom-index-table td:last-of-type a {
+  text-decoration: none !important;
+}
+/* line 234, /Users/malachai/Desktop/Projects/danladi-company-site/app/assets/stylesheets/global.scss */
+.custom-index-table th, .custom-index-table td {
+  vertical-align: middle !important;
+  padding: 10px !important;
+}
+/* line 238, /Users/malachai/Desktop/Projects/danladi-company-site/app/assets/stylesheets/global.scss */
+.custom-index-table th {
+  text-align: center;
+  background-color: #eeeeee;
+  font-weight: 500;
+}
+
+/* line 248, /Users/malachai/Desktop/Projects/danladi-company-site/app/assets/stylesheets/global.scss */
+.table-curved, .custom-index-table {
+  border-collapse: separate;
+  border: solid #eeeeee 1px;
+  border-radius: 6px;
+  border-left: 0px;
+  border-top: 0px;
+}
+/* line 255, /Users/malachai/Desktop/Projects/danladi-company-site/app/assets/stylesheets/global.scss */
+.table-curved thead:first-child tr:first-child th, .custom-index-table thead:first-child tr:first-child th {
+  border-bottom: 0px;
+  border-top: solid #eeeeee 1px;
+}
+/* line 260, /Users/malachai/Desktop/Projects/danladi-company-site/app/assets/stylesheets/global.scss */
+.table-curved td, .custom-index-table td, .table-curved th, .custom-index-table th {
+  border-left: 1px solid #eeeeee;
+  border-top: 1px solid #eeeeee;
+}
+/* line 266, /Users/malachai/Desktop/Projects/danladi-company-site/app/assets/stylesheets/global.scss */
+.table-curved :first-child :first-child :first-child, .custom-index-table :first-child :first-child :first-child {
+  border-top-left-radius: 6px;
+}
+/* line 269, /Users/malachai/Desktop/Projects/danladi-company-site/app/assets/stylesheets/global.scss */
+.table-curved :first-child :first-child :last-child, .custom-index-table :first-child :first-child :last-child {
+  border-top-right-radius: 6px;
+}
+/* line 275, /Users/malachai/Desktop/Projects/danladi-company-site/app/assets/stylesheets/global.scss */
+.table-curved :last-child :last-child :first-child, .custom-index-table :last-child :last-child :first-child {
+  border-bottom-left-radius: 6px;
+}
+/* line 278, /Users/malachai/Desktop/Projects/danladi-company-site/app/assets/stylesheets/global.scss */
+.table-curved :last-child :last-child :last-child, .custom-index-table :last-child :last-child :last-child {
+  border-bottom-right-radius: 6px;
+}
+
+/* line 285, /Users/malachai/Desktop/Projects/danladi-company-site/app/assets/stylesheets/global.scss */
+.action-icon {
+  font-size: 1.2em;
+  margin: 2px;
+  color: #002f5e !important;
+}
+/* line 289, /Users/malachai/Desktop/Projects/danladi-company-site/app/assets/stylesheets/global.scss */
+.action-icon:hover, .action-icon:focus {
+  color: #115599 !important;
+}
+
+/* line 2, /Users/malachai/Desktop/Projects/danladi-company-site/app/assets/stylesheets/landing.scss */
+body {
+  font-family: 'Shrikhand','Archivo Black',Arial,cursive;
+}
+
+/* line 16, /Users/malachai/Desktop/Projects/danladi-company-site/app/assets/stylesheets/landing.scss */
+.danladi-company-biggun {
+  color: white;
+  margin-bottom: 0.59em;
+}
+/* line 20, /Users/malachai/Desktop/Projects/danladi-company-site/app/assets/stylesheets/landing.scss */
+.danladi-company-biggun .border {
+  border: 3px solid #dee2e6 !important;
+  padding: 0.222em;
+}
+/* line 25, /Users/malachai/Desktop/Projects/danladi-company-site/app/assets/stylesheets/landing.scss */
+.danladi-company-biggun p {
+  font-weight: lighter;
+}
